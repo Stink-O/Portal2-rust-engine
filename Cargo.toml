@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = ["crates/*"]
+
+[workspace.dependencies]
+bevy = "0.19"
+avian3d = "0.7"
+glam = "0.29"
+anyhow = "1"
+
+# Bevy is unusably slow unoptimised: optimise dependencies, keep our crates quick to build.
+[profile.dev]
+opt-level = 1
+[profile.dev.package."*"]
+opt-level = 3

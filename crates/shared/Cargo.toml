@@ -1,0 +1,9 @@
+[package]
+name = "shared"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Types every other crate agrees on: units, the portalable marker, the player's movement state."
+
+[dependencies]
+bevy = { workspace = true }

@@ -1,0 +1,6 @@
+/target
+/target-*
+/out
+*.png
+!docs/**/*.png
+__pycache__/

@@ -1,0 +1,13 @@
+[package]
+name = "p2_room"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Generated greybox test chamber (no Portal 2 levels) + the screenshot/script harness every p2_* example uses."
+
+[dependencies]
+p2_assets = { path = "../p2_assets" }
+bevy = { workspace = true }
+avian3d = { workspace = true }
+p2_core = { path = "../p2_core" }
+source_assets = { path = "../source_assets" }

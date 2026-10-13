@@ -1,0 +1,24 @@
+[package]
+name = "source_assets"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Portal 2 (Source engine) assets in Bevy: VPK/loose/pakfile filesystem, BSP maps with baked lightmaps, VMT/VTF materials, MDL props, avian colliders tagged for portalability."
+
+[dependencies]
+bevy = { workspace = true }
+avian3d = { workspace = true }
+shared = { path = "../shared" }
+anyhow = "1"
+vpk = "0.3.0"
+vbsp = "0.9.1"
+vmdl = "0.2.0"
+texpresso = "2.0.2"
+rayon = "1.12"
+bytemuck = { version = "1", features = ["derive"] }
+lzma-rs = "0.3"
+d3d9_sm3 = { path = "../d3d9_sm3" }
+d3d9_decl = { path = "../d3d9_decl" }
+naga = { version = "29", features = ["wgsl-in"] }
+
+[dev-dependencies]

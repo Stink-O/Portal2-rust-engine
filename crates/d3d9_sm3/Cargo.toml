@@ -1,0 +1,12 @@
+[package]
+name = "d3d9_sm3"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+publish = false
+description = "D3D9 Shader Model 1-3 token IR and deterministic WGSL emission. No IW4 knowledge."
+
+[dependencies]
+d3d9_decl = { path = "../d3d9_decl" }
+d3d9_state = { path = "../d3d9_state" }
+

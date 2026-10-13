@@ -1,0 +1,14 @@
+[package]
+name = "p2_transit"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Teleporting the player through portals and walking into the wall behind a portal, for the portal-only port."
+
+[dependencies]
+bevy = { workspace = true }
+p2_core = { path = "../p2_core" }
+avian3d = { workspace = true }
+
+[dev-dependencies]
+p2_room = { path = "../p2_room" }

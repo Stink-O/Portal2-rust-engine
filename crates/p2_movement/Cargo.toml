@@ -1,0 +1,14 @@
+[package]
+name = "p2_movement"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Portal 2 player controller (kinematic, 60 Hz, Source movement) for the portal-only port."
+
+[dependencies]
+bevy = { workspace = true }
+p2_core = { path = "../p2_core" }
+avian3d = { workspace = true }
+
+[dev-dependencies]
+p2_room = { path = "../p2_room" }

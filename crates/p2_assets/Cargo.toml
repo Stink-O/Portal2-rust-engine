@@ -1,0 +1,11 @@
+[package]
+name = "p2_assets"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Shared Portal 2 asset helpers for the p2_* crates (lead-owned): game filesystem, portal textures, MDL animation sampling."
+
+[dependencies]
+bevy = { workspace = true }
+p2_core = { path = "../p2_core" }
+source_assets = { path = "../source_assets" }

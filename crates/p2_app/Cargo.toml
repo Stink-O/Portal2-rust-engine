@@ -1,0 +1,25 @@
+[package]
+name = "p2_app"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "The demo: a test chamber with the Portal 2 player, portal gun and portals."
+
+[[bin]]
+name = "portal2-demo"
+path = "src/main.rs"
+
+[dependencies]
+bevy = { workspace = true, features = ["wav"] }
+avian3d = { workspace = true }
+p2_core = { path = "../p2_core" }
+p2_portals = { path = "../p2_portals" }
+p2_assets = { path = "../p2_assets" }
+p2_room = { path = "../p2_room" }
+p2_movement = { path = "../p2_movement" }
+p2_view = { path = "../p2_view" }
+p2_gun = { path = "../p2_gun" }
+p2_render = { path = "../p2_render" }
+p2_fx = { path = "../p2_fx" }
+p2_transit = { path = "../p2_transit" }
+p2_body = { path = "../p2_body" }

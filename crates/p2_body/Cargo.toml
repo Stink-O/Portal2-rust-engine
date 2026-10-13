@@ -1,0 +1,17 @@
+[package]
+name = "p2_body"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Chell's third-person body seen through portals and the ghost copies on both sides of a portal, for the portal-only port."
+
+[dependencies]
+bevy = { workspace = true }
+p2_core = { path = "../p2_core" }
+p2_assets = { path = "../p2_assets" }
+source_assets = { path = "../source_assets" }
+
+[dev-dependencies]
+p2_render = { path = "../p2_render" }
+p2_room = { path = "../p2_room" }
+avian3d = { workspace = true }

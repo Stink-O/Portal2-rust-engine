@@ -1,0 +1,22 @@
+Portal 2 Rust Engine
+Copyright (c) 2026 Stink-O, MIT License (see LICENSE).
+
+An independent fan project. It is not affiliated with or endorsed by Valve.
+Portal 2 is not included: nothing from the game is in this repository, and the
+crates only read the files of the player's own copy of Portal 2, on their own
+machine. Behaviour was worked out from the user's own copy of the game and
+written up as plain-English notes; no Valve code is in this repository.
+
+Third-party code
+----------------
+
+crates/d3d9_sm3, crates/d3d9_decl, crates/d3d9_state
+  From IW4L (https://github.com/vladtrc/iw4L) by vladtrc and contributors, as
+  carried in 2010 Rust Rewrite Mashup
+  (https://github.com/chasmlol/2010-rust-rewrite-mashup, commit 7842b9e).
+  Apache License 2.0: third_party/LICENSE-iw4l-mashup-Apache-2.0. Local
+  changes are listed in each crate's README.
+
+docs/images/ferris-portals.png
+  Ferris the crab by Karen Rustad Tölva (https://rustacean.net), dedicated to
+  the public domain (CC0); drawn here holding a portal gun.

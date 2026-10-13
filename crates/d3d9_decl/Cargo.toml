@@ -1,0 +1,10 @@
+[package]
+name = "d3d9_decl"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+publish = false
+description = "D3D9 vertex declaration types and usage semantics. No IW4 knowledge."
+
+[dependencies]
+

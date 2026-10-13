@@ -1,0 +1,10 @@
+[package]
+name = "p2_core"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Contract between the p2_* crates (portal-only Rust/Bevy port of Portal 2)."
+
+[dependencies]
+bevy = { workspace = true }
+shared = { path = "../shared" }
