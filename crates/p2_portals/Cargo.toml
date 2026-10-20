@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 publish = false
 description = "Portal 2's portals, portal gun and first-person controller for Bevy + avian3d, in one plugin group."
-license = "MIT"
+license = "GPL-3.0-only"
 
 [dependencies]
 bevy = { workspace = true }

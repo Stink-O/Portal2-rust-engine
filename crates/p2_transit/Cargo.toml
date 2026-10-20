@@ -2,6 +2,7 @@
 name = "p2_transit"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3.0-only"
 publish = false
 description = "Teleporting the player through portals and walking into the wall behind a portal, for the portal-only port."
 

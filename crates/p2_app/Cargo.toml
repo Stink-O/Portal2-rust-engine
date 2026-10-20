@@ -2,6 +2,7 @@
 name = "p2_app"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3.0-only"
 publish = false
 description = "The demo: a test chamber with the Portal 2 player, portal gun and portals."
 

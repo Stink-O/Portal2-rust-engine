@@ -1,5 +1,6 @@
 Portal 2 Rust Engine
-Copyright (c) 2026 Stink-O, MIT License (see LICENSE).
+Copyright (c) 2026 Stink-O, GNU General Public License v3.0 only (see LICENSE).
+Release 0.1.0 was published under the MIT License; versions from the licence change on are GPL-3.0-only.
 
 An independent fan project. It is not affiliated with or endorsed by Valve.
 Portal 2 is not included: nothing from the game is in this repository, and the

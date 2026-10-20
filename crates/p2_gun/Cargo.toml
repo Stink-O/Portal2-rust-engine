@@ -2,6 +2,7 @@
 name = "p2_gun"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3.0-only"
 publish = false
 description = "Portal gun shooting and portal placement rules for the portal-only port."
 

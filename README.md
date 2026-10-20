@@ -20,7 +20,7 @@ with recursion, Chell seen through the portals as you walk through them, and Por
   <a href="https://bevyengine.org"><img alt="Bevy 0.19" src="https://img.shields.io/badge/Bevy-0.19-232326?logo=bevy&logoColor=white"></a>
   <a href="https://github.com/Jondolf/avian"><img alt="avian3d 0.7" src="https://img.shields.io/badge/avian3d-0.7-6a5acd"></a>
   <a href="https://store.steampowered.com/app/620/Portal_2/"><img alt="Portal 2 on Steam" src="https://img.shields.io/badge/Portal%202-Steam-1b2838?logo=steam&logoColor=white"></a>
-  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-blue"></a>
+  <a href="LICENSE"><img alt="GPL-3.0 license" src="https://img.shields.io/badge/license-GPL--3.0-blue"></a>
 </p>
 
 <p align="center">
@@ -287,7 +287,7 @@ Bug reports are welcome in [Issues](https://github.com/Stink-O/Portal2-rust-engi
 
 ## Credits and licence
 
-MIT licensed: see [LICENSE](LICENSE). The mascot is [Ferris](https://rustacean.net) by Karen Rustad Tölva (public
+GPL-3.0-only licensed: see [LICENSE](LICENSE). A game that ships these crates must be under a GPL-3.0-compatible licence and offer its source. (Release 0.1.0 was published under the MIT License and stays available under it.) The mascot is [Ferris](https://rustacean.net) by Karen Rustad Tölva (public
 domain), with a portal gun. Third-party code and its licences are listed in [NOTICE](NOTICE): the
 `d3d9_*` crates come from [IW4L](https://github.com/vladtrc/iw4L) (Apache-2.0).
 

@@ -2,6 +2,7 @@
 name = "shared"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3.0-only"
 publish = false
 description = "Types every other crate agrees on: units, the portalable marker, the player's movement state."
 

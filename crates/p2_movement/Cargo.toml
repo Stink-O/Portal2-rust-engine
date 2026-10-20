@@ -2,6 +2,7 @@
 name = "p2_movement"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3.0-only"
 publish = false
 description = "Portal 2 player controller (kinematic, 60 Hz, Source movement) for the portal-only port."
 

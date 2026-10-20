@@ -1,7 +1,7 @@
 # p2_movement
 
 Portal 2's first-person player controller as a Bevy 0.19 plugin, on avian3d
-shape casts. MIT. It contains no Portal 2 code or assets.
+shape casts. GPL-3.0-only. It contains no Portal 2 code or assets.
 
 ## Add it to your app
 

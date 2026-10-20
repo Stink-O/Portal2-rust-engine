@@ -2,6 +2,7 @@
 name = "p2_view"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3.0-only"
 publish = false
 description = "First-person camera, portal gun viewmodel and crosshair for the portal-only port."
 

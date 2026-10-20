@@ -2,6 +2,7 @@
 name = "p2_assets"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3.0-only"
 publish = false
 description = "Shared Portal 2 asset helpers for the p2_* crates (lead-owned): game filesystem, portal textures, MDL animation sampling."
 

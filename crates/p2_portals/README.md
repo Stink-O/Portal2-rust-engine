@@ -79,5 +79,5 @@ and saves screenshots there.
 
 ## Licence
 
-MIT. Behaviour was reverse-engineered from the user's own copy of the game
+GPL-3.0-only. Behaviour was reverse-engineered from the user's own copy of the game
 into plain-English specs. No Valve code or assets are in this repository.

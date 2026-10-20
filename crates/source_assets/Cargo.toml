@@ -2,6 +2,7 @@
 name = "source_assets"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3.0-only"
 publish = false
 description = "Portal 2 (Source engine) assets in Bevy: VPK/loose/pakfile filesystem, BSP maps with baked lightmaps, VMT/VTF materials, MDL props, avian colliders tagged for portalability."
 
